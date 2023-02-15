@@ -1,0 +1,1 @@
+aarch64-linux-gnu-g++ -std=c++11 -O3 -march=armv8-a main.cpp yolov5m6.cpp -o test -L /home/Park/Tengine/build/install/lib/ -L /home/opencv_4.5.5/lib/ -lopencv_core -lopencv_imgproc -lopencv_imgcodecs -ltengine-lite -I /home/opencv_4.5.5/include/opencv4/ -I /home/Park/Tengine/build/install/include/ -I ./
